@@ -1,0 +1,23 @@
+Package: meupacote
+Title: Titulo Exemplo
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Joaozinho",
+           family = "Silva",
+           role = c("aut", "cre"),
+           email = "exemplo@examplo.com")
+Description: Essa eh a descricao.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    magrittr,
+    readr
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
