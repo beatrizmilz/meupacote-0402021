@@ -2,8 +2,8 @@ Package: meupacote
 Title: Titulo Exemplo
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Joaozinho",
-           family = "Silva",
+    person(given = "C.",
+           family = "Lente",
            role = c("aut", "cre"),
            email = "exemplo@examplo.com")
 Description: Essa eh a descricao.
