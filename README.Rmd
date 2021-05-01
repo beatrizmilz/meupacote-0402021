@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+
+# meupacote
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+The goal of meupacote is to ...
+
+## Installation
+
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("beatrizmilz/meupacote")
+```
+
+## Exemplo de uso
+
+
+```{r setup}
+library(meupacote)
+```
+
+Nomes dos times que estão na base de dados:
+
+```{r}
+unique(partidas_brasileirao$quem_ganhou)
+```
+
+Como usar a função:
+
+```{r}
+encontrar_pior_ano_time(time = "Corinthians") %>%
+  knitr::kable()
+```
