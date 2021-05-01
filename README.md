@@ -4,6 +4,8 @@
 # meupacote
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/clente/meupacote/workflows/R-CMD-check/badge.svg)](https://github.com/clente/meupacote/actions)
 <!-- badges: end -->
 
 O objetivo do pacote é disponibilizar funções para analisar dados do
