@@ -19,7 +19,10 @@ Imports:
 Depends: 
     R (>= 2.10)
 Suggests: 
+    rmarkdown,
+    knitr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://github.com/beatrizmilz/meupacote
 BugReports: https://github.com/beatrizmilz/meupacote/issues
+VignetteBuilder: knitr

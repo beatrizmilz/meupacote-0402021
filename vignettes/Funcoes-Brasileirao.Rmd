@@ -1,0 +1,33 @@
+---
+title: "Função Brasileirão"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Funções-Brasileirão}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(meupacote)
+```
+
+Nomes dos times que estão na base de dados:
+
+```{r}
+unique(partidas_brasileirao$quem_ganhou)
+```
+
+Como usar a função:
+
+```{r}
+encontrar_pior_ano_time(time = "Corinthians") %>% knitr::kable()
+```
+
+
