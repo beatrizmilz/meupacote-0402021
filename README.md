@@ -6,7 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of meupacote is to …
+O objetivo do pacote é disponibilizar funções para analisar dados do
+Brasileirão.
 
 ## Installation
 
