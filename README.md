@@ -5,9 +5,9 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/clente/meupacote/workflows/R-CMD-check/badge.svg)](https://github.com/clente/meupacote/actions)
+[![R-CMD-check](https://github.com/beatrizmilz/meupacote/workflows/R-CMD-check/badge.svg)](https://github.com/beatrizmilz/meupacote/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/clente/meupacote/branch/master/graph/badge.svg)](https://codecov.io/gh/clente/meupacote?branch=master)
+coverage](https://codecov.io/gh/beatrizmilz/meupacote/branch/master/graph/badge.svg)](https://codecov.io/gh/beatrizmilz/meupacote?branch=master)
 <!-- badges: end -->
 
 O objetivo do pacote é disponibilizar funções para analisar dados do
